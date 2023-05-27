@@ -1,0 +1,43 @@
+<html>
+    <style>
+        body{
+            background-color: blue;
+        }
+        h2{
+            color: aqua;
+        }
+        p{
+            color: antiquewhite;
+        }
+    </style>
+    <head>
+        <title>JS Example</title>
+        
+    </head>
+
+    <body>
+        <h2> JAVASCRIPT LAB TASK.</h2>
+        <p id="result"> Welcome to Web Development lab.</p>
+        <p> write any number to create its table</p>
+        <script>
+            var a = 10;
+            
+            function fcall()
+            {
+                n = document.form1.data1.value;
+                var r = 1;
+                var a = 0;
+                for (a=0; a<10; a++)
+                {
+                    r = n*a;
+                    document.write(n+" x "+a+" = " + r +"<br>");
+                }
+            }
+        </script>    
+        <form name="form1">
+            <input type="text" name="data1">
+            <input type="button" value="show" onclick="fcall()">
+        </form>
+
+    </body>
+</html>
